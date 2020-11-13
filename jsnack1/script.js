@@ -10,7 +10,7 @@ var inputOne = parseInt(prompt("inserisci un numero tra 0 e 5"));
 var inputTwo = parseInt(prompt("inserisci un numero tra 0 e 5"));
 
 // creo il nuovo array
-for (var i = inputOne; i < inputTwo; i++) {
+for (var i = inputOne; i <= inputTwo; i++) {
   arrayUte.push(myArray[i])
 }
 
